@@ -98,5 +98,39 @@
 //     console.log(`Bu son 3 ga ham, 5 ga ham bo‘linmaydi`);
 // }
 
+//*13-masala
+// let son1 = Number(prompt("1-sonni kiriting: "))
+// let son2 = Number(prompt("2-sonni kiriting: "))
+// let son3 = Number(prompt("3-sonni kiriting: "))
+// if(son1 + son2 > son3 && son1 + son3 > son2 && son2 + son3 > son1){
+//     console.log("Bu tomonlar uchburchak hosil qiladi")
+// }else{
+//     console.log("Bu tomonlar uchburchak hosil qilmaydi")
+// }
+
+//* 14-masala
+// let son1 = Number(prompt("1-sonni kiriting: "))
+// if(son1 > 0){
+//     console.log(son1*2)
+// }else if(son1 < 0){
+//     console.log(son1/2)
+// }else{
+//     console.log("Bu nol")
+// }
+
+//* 15-masala
+let son = 235;
+let yuzlar = Math.floor(son / 100)
+let onlar = Math.floor(son % 100)
+let birlar = son % 10
+if(son > 99 && son < 1000){
+    if(yuzlar == onlar|| yuzlar == birlar || onlar == birlar){
+    console.log("Son ichida bir xil raqam bor")
+}else{
+    console.log("Barcha raqamlar turli")
+}
+}else{
+    console.log("Iltimos, uch xonali son kiriting!")
+}
 
 
